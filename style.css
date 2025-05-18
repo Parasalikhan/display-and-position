@@ -1,59 +1,47 @@
-.parent
-{
+.parent {
   width: 500px;
-  height: 500px;
+  height: 100vh;
   border: 1px solid black;
-  margin: 200px auto;
   position: relative;
-
+  background-color: #000000;
 }
 
-.child1
-{
-  
+.child1 {
   width: 100px;
   height: 100px;
   background-color: yellow;
-  margin: 100px auto 0 auto;
- 
-
- 
+  
+  border: 5px solid white;
+  position: sticky;
 }
-.child2
-{
+.child2 {
   width: 100px;
   height: 100px;
   background-color: #ff0000;
-  margin-left: 100px;
- 
-
- 
+  border: 5px solid white;
 }
-.child3
-{
+.child3 {
   width: 100px;
   height: 100px;
+  top: 00px;
   background-color: green;
-    margin-left: 100px;
- 
-
-
- 
+  
+  border: 5px solid white;
 }
-.child4
-{
+.child4 {
   width: 100px;
   height: 100px;
-  background-color:blue;
-      margin-left: 200px;
-
- 
+  background-color: blue;
+  top: 400px;
+  border: 5px solid white;
+  position: fixed;
 }
-.child5
-{
+.child5 {
   width: 100px;
   height: 100px;
-  background-color: grey;
-  margin-left: 100px;
- 
+  background-color: rgb(91, 3, 86);
+  border: 5px solid white;
+  position: sticky;
+  top: 500px;
+
 }
